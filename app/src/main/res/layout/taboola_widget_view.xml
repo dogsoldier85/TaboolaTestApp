@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:taboola="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.taboola.android.TaboolaWidget
+        android:id="@+id/taboola_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        taboola:tb_mode="alternating-widget-without-video"
+        taboola:tb_page_type="article"
+        taboola:tb_placement="Below Article"
+        taboola:tb_publisher="sdk-tester"
+        taboola:tb_target_type="mix"
+        taboola:tb_url="https://developers.taboola.com/taboolasdk/docs/taboola-android-sdk-feed-via-native" />
+</FrameLayout>
